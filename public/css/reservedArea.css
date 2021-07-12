@@ -1,0 +1,219 @@
+section {
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    padding: 50px 0px;
+}
+
+.testoBlu {
+    font-weight: bold;
+    font-size: 20px;
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+    color: rgb(6, 20, 61);
+    margin-left: 80px;
+    margin-top: 0px;
+}
+
+#welcome {
+    height: 150px;
+}
+
+#welcome .testoBlu{
+    margin-top: 30px;
+}
+
+#club {
+    padding-top: 10px;
+    padding-bottom: 70px;
+    height: 250px;
+}
+
+#bookings {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    padding: 50px 0px;
+}
+
+#music {
+    padding-top: 10px;
+    padding-bottom: 70px;
+    height: 250px;
+}
+
+#club p, #music p{
+    font-weight: bold;
+    font-size: 20px;
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    color: white;
+    margin-left: 80px;
+    margin-top: 0px;
+}
+
+#welcome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+}
+#welcome p{
+    font-weight: bold;
+    font-size: 24px;
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    color: rgb(6, 20, 61);
+    margin-left: 80px;
+}
+
+.album, .musicAlbum {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.musicAlbum {
+    margin-top: 15px
+}
+
+.album img {
+    width: 340px;
+    height: 220px;
+}
+
+.musicAlbum img {
+    width: 220px;
+    height: 280px;
+    margin: 0px 10px;
+}
+
+#clubTable, #flightTable {
+    border-collapse: collapse;
+    width: 90%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    color: rgb(6, 20, 61);
+    margin: 30px 0px;
+}
+ 
+#clubTable td, th {
+    border: 1px solid rgb(6, 20, 61);
+    text-align: center;
+    padding: 12px;
+    vertical-align: middle;
+}
+
+#flightTable td, th {
+    border: 1px solid rgb(6, 20, 61);
+    text-align: center;
+    padding: 12px;
+    vertical-align: middle;
+}
+
+tr {
+    vertical-align: middle;
+}
+
+#clubTable tr:nth-child(even){
+    background-color: rgba(13, 40, 121, 0.856);
+    color: white;
+}
+
+#flightTable tr:nth-child(even) {
+    background-color: rgba(13, 40, 121, 0.856);
+    color: white;
+}
+
+#clubTable th {
+    background-color: white;
+}
+
+.paragraph {
+    color: white;
+    text-align: center;
+    align-content: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    margin: 0px;
+}
+
+#from, #to {
+    vertical-align: middle;
+}
+
+#from img, #to img {
+    height: 20px;
+    width: 20px;
+    margin-left: 15px;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 50px;
+    width: auto;
+    background-color: rgb(6, 20, 61);
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    border-radius: 5px;
+    margin: 20px 0px;
+    padding: 5px;
+}
+
+label {
+    font-weight: bold;
+    margin-left: 15px;
+    line-height: 25px;
+}
+
+input[name='album'] {
+    width: 200px;
+    height: 25;
+    margin-left: 15px;
+}
+
+input[type=submit] {
+    background: white;
+    border: 0;
+    padding: 3px;
+    border-radius: 4px;
+    color: rgb(6, 20, 61);;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    margin: 0px 15px;
+    width: 120px;
+}
+
+input[type=text] {
+    border-radius: 4px;
+}
+
+.testoVerde {
+    font-weight: bold;
+    font-size: 20px;
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+    color: green;
+    margin-left: 80px;
+    text-align: justify;
+}
+
+.testoRosso {
+    font-weight: bold;
+    font-size: 20px;
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+    color: red;
+    margin-left: 40px;
+    text-align: justify;
+}
